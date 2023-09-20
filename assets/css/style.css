@@ -1,0 +1,21 @@
+/* Asterisk selector to override default addition browser styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: green;
+}
+
+/* Main */
+main {
+    background-color: aqua;
+}
+
+/* Footer */
+footer {
+    background-color: burlywood;
+}
