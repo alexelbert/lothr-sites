@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Source+Sans+3:wght@200&display=swap');
+
 /* Asterisk selector to override default addition browser styles */
 * {
     padding: 0;
@@ -5,26 +7,28 @@
     box-sizing: border-box;
 }
 
-/* General style */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: black;
+    color: rgba(0, 0, 0, 0.815);
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 300;
 }
 
-/* Header */
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+
 header {
-    background-color: #FFCB69;
+    background-color: #D39F3C;
 }
 
-/* Main */
 main {
-    background-color: #797D62;
+    background-color: #3A3D25;
     flex: 1 0 auto;
 }
 
-/* Footer */
 footer {
-    background-color: #BAA587;
+    background-color: #6D491E;
 }
