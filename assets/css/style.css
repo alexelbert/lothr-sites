@@ -51,6 +51,7 @@ header {
 main {
     background-color: #3A3D25;
     flex: 1 0 auto;
+    margin-top: 111px;
 }
 
 footer {
