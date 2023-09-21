@@ -34,10 +34,10 @@ h1 {
     flex-direction: row;
     list-style-type: none;
     align-items: center;
-    justify-content: center;  
+    justify-content: center;
 }
 
-#navbar > li {
+#navbar>li {
     margin-right: 10px;
 }
 
