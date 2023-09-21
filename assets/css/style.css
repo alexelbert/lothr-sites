@@ -41,6 +41,11 @@ h1 {
     margin-right: 10px;
 }
 
+#navbar a:hover {
+    color: white;
+    transition: .5s;
+}
+
 header {
     background-color: #D39F3C;
     position: fixed;
