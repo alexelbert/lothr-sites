@@ -153,4 +153,24 @@ footer {
   .footer-divs {
     flex: 1;
     margin: 0 25px;
+    text-align: center;
+  }
+
+  /* Media Queries*/
+
+  /* For small screen sizes below 800px width*/
+  @media screen and (max-width: 800px) and (orientation: portrait) {
+    .footer-section {
+        flex-direction: column;
+        column-count: 1;
+    }
+
+    .footer-divs {
+        flex: none;
+        margin-bottom: 10px;
+    }
+
+    .dropdown {
+        position: static;
+    }
   }
