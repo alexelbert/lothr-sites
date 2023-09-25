@@ -97,13 +97,60 @@ footer {
     left: 0;
     width: 100%;
     display: flex;
-    justify-content: row;
-    align-items: center;
+    justify-content: space-between;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-button {
+    background-color: #D39F3C;
+    color: #ECEAEB;
+    padding: 10px;
+    border: 1px #CF281D;
+    cursor: pointer;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #D39F3C;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    bottom: 85px;
+  }
+
+  .dropdown-content a {
+    color: #ECEAEB;
+    padding: 2px 5px;
+    display: block;
+    text-decoration: none;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #D39F3C;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
   }
   
 
   #map iframe {
     max-width: 100%;
     width: 100%;
-    height: 150px;
+    height: 100px;
+  }
+
+  .footer-section {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-divs {
+    flex: 1;
+    margin: 0 25px;
   }
