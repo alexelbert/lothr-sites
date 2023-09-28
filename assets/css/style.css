@@ -22,10 +22,13 @@ header a {
   color: inherit;
   text-align: center;
   letter-spacing: 1px;
+  padding: 8px;
 
 }
 
-h1 {
+h1,
+h2,
+h3 {
   font-family: 'Playfair Display', serif;
   color: #ECEAEB;
 }
@@ -37,6 +40,7 @@ h1 {
   list-style-type: none;
   align-items: center;
   justify-content: center;
+  padding-bottom: 10px;
 }
 
 #navbar>li {
@@ -53,14 +57,14 @@ h1 {
 }
 
 #outline-hero {
-  height: 600px;
+  height: 400px;
   width: 100%;
   overflow: hidden;
-  margin-top: 68px;
+  margin-top: 122px;
 }
 
 #hero-image {
-  height: 600px;
+  height: 400px;
   width: 100%;
   background: url(../images/DSC00201\ \(Large\).JPG) no-repeat center center;
   background-size: cover;
@@ -70,7 +74,7 @@ h1 {
   color: #ECEAEB;
   background-color: rgba(0, 0, 0, .6);
   width: 100%;
-  height: 600px;
+  height: 400px;
   text-align: center;
   position: absolute;
   padding: 50px;
@@ -95,10 +99,6 @@ main {
   align-items: center;
   height: 50vh;
   margin-left: 8%;
-}
-
-.picture-section {
-  
 }
 
 .photos {
@@ -178,6 +178,43 @@ footer {
 
 /* For small screen sizes below 800px width*/
 @media screen and (max-width: 800px) and (orientation: portrait) {
+
+  h1 {
+    font-size: 125%;
+  }
+
+  #heading {
+    padding: 5px;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+
+  }
+
+  #navbar {
+    font-size: 85%;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5px;
+  }
+
+  #navbar>li {
+    margin-right: 5px;
+  }
+
+  #outline-hero {
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 105px;
+  }
+
   .footer-section {
     flex-direction: column;
     column-count: 1;
