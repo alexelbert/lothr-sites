@@ -92,6 +92,10 @@ main {
   flex: 1 0 auto;
 }
 
+.hidden {
+  display: none;
+}
+
 #index-pictures {
   padding: 10% 2%;
 }
@@ -119,7 +123,7 @@ main {
 
 }
 
-.location > div {
+.location>div {
   padding: 10% 0;
 }
 
@@ -202,7 +206,7 @@ footer {
 /* Media Queries*/
 
 /* Media queries for tablets and larger */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .location {
     display: grid;
     align-items: center;
@@ -211,14 +215,12 @@ footer {
     column-gap: 40px;
     margin-top: 160px;
     padding: 0 10%;
-  
+
   }
 }
 
 /* Media queries for larger screens */
-@media screen and (max-width: 1200px) {
-
-}
+@media screen and (max-width: 1200px) {}
 
 /* For small screen sizes below 425px width*/
 @media screen and (max-width: 425px) {
@@ -287,7 +289,7 @@ footer {
     display: inline;
     margin-top: 200px;
     padding: 0 5%;
-  
+
   }
 
   .footer-section {
