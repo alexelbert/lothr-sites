@@ -115,7 +115,12 @@ main {
   grid-template-columns: 1fr 1fr;
   column-gap: 40px;
   margin-top: 160px;
+  padding: 0 10%;
 
+}
+
+.location > div {
+  padding: 10% 0;
 }
 
 .gallery-photos {
