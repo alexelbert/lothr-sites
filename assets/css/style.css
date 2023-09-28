@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Source+Sans+3:wght@200&display=swap');
 
+:root {
+  --font: #ECEAEB;
+  --background: #3A3D25;
+  --menu-background: #010101;
+}
+
+
 /* Asterisk selector to override default addition browser styles */
 * {
   padding: 0;
@@ -11,7 +18,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  color: #ECEAEB;
+  color: var(--font);
   font-family: 'Source Sans 3', sans-serif;
   font-weight: 300;
   font-size: 12pt;
@@ -82,14 +89,14 @@ h2 {
 }
 
 header {
-  background-color: #010101;
+  background-color: var(--menu-background);
   position: fixed;
   width: 100%;
   z-index: 99;
 }
 
 main {
-  background-color: #3A3D25;
+  background-color: var(--background);
   flex: 1 0 auto;
 }
 
@@ -137,6 +144,11 @@ h3 {
   color: #ECEAEB;
 }
 
+.location-link:hover {
+  color: #D39F3C;
+}
+
+
 .gallery-photos {
   width: 100%;
   height: auto;
@@ -150,7 +162,7 @@ h3 {
 }
 
 footer {
-  background-color: #010101;
+  background-color: var(--menu-background);
   color: white;
   padding: 20px;
   bottom: 0;
