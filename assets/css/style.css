@@ -108,7 +108,20 @@ main {
   height: auto;
 }
 
+.location {
+  display: grid;
+  align-items: center;
+  text-align: center;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 40px;
+  margin-top: 160px;
 
+}
+
+.gallery-photos {
+  width: 100%;
+  height: auto;
+}
 
 #map iframe {
   max-width: 100%;
