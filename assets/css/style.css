@@ -14,6 +14,7 @@ body {
   color: #ECEAEB;
   font-family: 'Source Sans 3', sans-serif;
   font-weight: 300;
+  font-size: 12pt;
 }
 
 header a {
@@ -129,6 +130,11 @@ main {
 
 h3 {
   padding-bottom: 10px;
+}
+
+.location-link {
+  text-decoration: none;
+  color: #ECEAEB;
 }
 
 .gallery-photos {
