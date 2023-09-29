@@ -35,7 +35,8 @@ header a {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: 'Playfair Display', serif;
   color: #ECEAEB;
 }
@@ -60,7 +61,9 @@ h3 {
 }
 
 .current-page {
-  color: #CF281D;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  color: #D39F3C;
 }
 
 #outline-hero {
@@ -148,6 +151,10 @@ h3 {
   color: #D39F3C;
 }
 
+.fa-solid {
+  padding-left: 5px;
+}
+
 
 .gallery-photos {
   width: 100%;
@@ -163,7 +170,7 @@ h3 {
 
 footer {
   background-color: var(--menu-background);
-  color: white;
+  color: var(--font);
   padding: 20px;
   bottom: 0;
   left: 0;
@@ -172,47 +179,22 @@ footer {
   justify-content: space-between;
 }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-button {
-  background-color: #D39F3C;
-  color: #ECEAEB;
-  padding: 10px;
-  border: 1px #CF281D;
-  cursor: pointer;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #D39F3C;
-  min-width: 100px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-  bottom: 85px;
-}
-
-.dropdown-content a {
-  color: #ECEAEB;
-  padding: 2px 5px;
-  display: block;
-  text-decoration: none;
-}
-
-.dropdown-content a:hover {
-  background-color: #D39F3C;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
 .footer-section {
   display: flex;
   justify-content: space-between;
+}
+
+.web-list {
+  display: inline-block;
+  justify-content: space-between;
+  list-style-type: none;
+  text-align: left;
+  padding: 10px 0;
+}
+
+.web-list > li > a {
+  text-decoration: none;
+  color: var(--font);
 }
 
 .footer-divs {
