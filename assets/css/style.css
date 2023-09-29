@@ -192,7 +192,7 @@ footer {
   padding: 10px 0;
 }
 
-.web-list > li > a {
+.web-list>li>a {
   text-decoration: none;
   color: var(--font);
 }
@@ -219,10 +219,21 @@ footer {
   }
 }
 
-/* Media queries for larger screens */
-@media screen and (max-width: 1200px) {}
 
-/* For small screen sizes below 425px width*/
+@media screen and (min-width: 1200px) {
+
+  /* Incresed height for backround img to be fully visible on large screens*/
+  #hero-image {
+    height: 350px;
+  }
+
+  /* Added some margin to make content appear more seperated since hero img was made larger*/
+  .pic-div {
+    margin-top: 150px;
+  }
+}
+
+
 @media screen and (max-width: 425px) {
 
   h1 {
