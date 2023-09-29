@@ -197,6 +197,10 @@ footer {
   color: var(--font);
 }
 
+li > a:hover {
+  color: #D39F3C;
+}
+
 .footer-divs {
   flex: 1;
   margin: 0 25px;
