@@ -169,6 +169,10 @@ h3 {
   padding: 5% 15%;
 }
 
+.contact {
+  margin-top: 122px;
+}
+
 footer {
   background-color: var(--menu-background);
   color: var(--font);
