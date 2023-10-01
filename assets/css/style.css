@@ -171,26 +171,29 @@ h3 {
 
 .contact {
   text-align: center;
-  margin-top: 122px;
+  margin: 122px auto 30px auto;
 }
 
-.contact > div {
-  margin-bottom: 30px;
-}
-
-form .contact-form {
-  display: table;
-  margin: 0 auto 20px auto;
-}
-
-label, input {
-  display: table-cell;
-  text-align: center;
+.contact-form {
+  margin-bottom: 15px;
 }
 
 label {
-  padding-right: 20px;
+  display: inline-block;
+  width: 80px;
 }
+
+#submit {
+  background-color: var(--font);
+  border: none;
+  height: 25px;
+  width: 50px;
+}
+
+#submit:hover {
+  background-color: #D39F3C;
+}
+
 
 footer {
   background-color: var(--menu-background);
@@ -222,7 +225,7 @@ footer {
   color: var(--font);
 }
 
-li > a:hover {
+li>a:hover {
   color: #D39F3C;
 }
 
@@ -240,6 +243,13 @@ li > a:hover {
 
 .follow-icons:hover {
   color: #D39F3C;
+}
+
+/* Placeholder page for letting user know they have submitted their feedback.
+centerd and moved text down the page. */
+#thank-you {
+  text-align: center;
+  margin-top: 200px;
 }
 
 /* Media Queries*/
