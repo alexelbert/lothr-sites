@@ -147,7 +147,8 @@ h3 {
 }
 
 .location-link {
-  text-decoration: none;
+  text-decoration: underline;
+  text-underline-offset: 3px;
   color: #ECEAEB;
 }
 
