@@ -4,6 +4,7 @@
   --font: #ECEAEB;
   --background: #3A3D25;
   --menu-background: #010101;
+  --hover-colour: #D39F3C;
 }
 
 
@@ -40,7 +41,7 @@ h3,
 h4,
 h5 {
   font-family: 'Playfair Display', serif;
-  color: #ECEAEB;
+  color: var(--font);
 }
 
 #edoras,
@@ -64,14 +65,14 @@ h5 {
 }
 
 #navbar a:hover {
-  color: #D39F3C;
+  color: var(--hover-colour);
   transition: .5s;
 }
 
 .current-page {
   text-decoration: underline;
   text-underline-offset: 3px;
-  color: #D39F3C;
+  color: var(--hover-colour);
 }
 
 #outline-hero {
@@ -149,11 +150,11 @@ h3 {
 .location-link {
   text-decoration: underline;
   text-underline-offset: 3px;
-  color: #ECEAEB;
+  color: var(--font);
 }
 
 .location-link:hover {
-  color: #D39F3C;
+  color: var(--hover-colour);
 }
 
 .fa-solid {
@@ -195,7 +196,7 @@ label {
 }
 
 #submit:hover {
-  background-color: #D39F3C;
+  background-color: var(--hover-colour);
 }
 
 
@@ -230,7 +231,7 @@ footer {
 }
 
 li>a:hover {
-  color: #D39F3C;
+  color: var(--hover-colour);
 }
 
 .follow-div {
@@ -246,7 +247,7 @@ li>a:hover {
 }
 
 .follow-icons:hover {
-  color: #D39F3C;
+  color: var(--hover-colour);
 }
 
 /* Placeholder page for letting user know they have submitted their feedback.
