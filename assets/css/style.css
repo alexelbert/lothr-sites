@@ -271,16 +271,18 @@ centerd and moved text down the page. */
 
 @media screen and (min-width: 1200px) {
 
-  /* Incresed height for backround img to be fully visible on large screens*/
+  /* Increased height for background img to be fully visible on large screens*/
   #hero-image {
     height: 350px;
   }
 
+  /* Make the text centred and forcing text to appear on multiple lines */
   .text-div {
     width: 33%;
     margin: 50px 0 0 600px;
   }
 
+  /* Making the map less stretched and centred*/
   #map {
     width: 50%;
     margin-left: 450px;
@@ -321,7 +323,7 @@ centerd and moved text down the page. */
   }
 
   #navbar>li {
-    margin-right: 5px;
+    margin-right: 2px;
   }
 
   #outline-hero {
@@ -339,16 +341,24 @@ centerd and moved text down the page. */
     margin-top: 105px;
   }
 
+  /* Added padding to make more space to the edge of the screen and separate the content */
   .text-div {
-    padding: 10px 20px;
+    padding: 20px 40px;
   }
 
+  /* Making the pictures on the index-page collapse vertically and centred */
   .pic-div {
     display: inline-block;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding: 70px 0;
+  }
+
+  /* Used to make the map smaller and not so tall vertically with some more margin to the footer */
+  #map iframe {
+    height: 200px;
+    margin-bottom: 25px;
   }
 
   .picture-section {
