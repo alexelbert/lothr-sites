@@ -254,7 +254,6 @@ centerd and moved text down the page. */
 
 /* Media Queries*/
 
-/* Media queries for tablets and larger */
 @media screen and (max-width: 768px) {
   .location {
     display: grid;
@@ -285,7 +284,7 @@ centerd and moved text down the page. */
   /* Making the map less stretched and centred*/
   #map {
     width: 50%;
-    margin-left: 450px;
+    margin-left: 25%;
   }
 
   /* Added some margin to make content appear more seperated since hero img was made larger*/
