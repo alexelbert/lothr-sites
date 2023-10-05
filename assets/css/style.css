@@ -364,7 +364,7 @@ centerd and moved text down the page. */
   }
 
   /* Added some margin to the main content to make it appear under the nav bar */
-  #weathertop {
+  .location-main {
     margin-top: 95px;
   }
 
