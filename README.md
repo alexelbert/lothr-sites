@@ -1,6 +1,8 @@
 # LOTR Filming Locations
 
-[visit here](https://alexelbert.github.io/lotr-sites/)
+[Visit website here](https://alexelbert.github.io/lotr-sites/)
+
+![Responsive](images/responsive.png)
 
 Created to easily provide LOTR filming locations with links to maps and coordinates. Information that people travelling New Zealand specifically would come to appreciate. This website was made for educational purposes only.
 
@@ -17,7 +19,6 @@ User goals for this website are:
 
 1. As a first-time visitor, I want to easily find useful information about LOTR film locations.
 2. As a first-time visitor, I want to have access to many locations a few clicks away.
-3. As a first-time visitor, I want a helpful guide on where these locations are located in New Zealand.
 4. As a recurring or first-time visitor, I want compiled source information about locations.
 5. As a recurring or first-time visitor. I want to be able to contact the author about updates or general feedback.
 
@@ -127,14 +128,96 @@ The following technologies has been used to make this website work:
     - Used to validate HTML code.
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
     - Used to validate CSS code.
+- [Am I Responsive](http://ami.responsivedesign.is/)
+    - Used to make responsive image for README.md file.
+- [PageSpeed Insigts](https://pagespeed.web.dev)
+    - Used to assess performance of the website.
+- [Google My Maps](https://mymaps.google.com)
+    - Used for making a shared map with marked locations for the website.
 
 
 ## Testing
 
+### User Stories
+1. **As a first-time visitor, I want to easily find useful information about LOTR film locations.**
+As soon as the page opens you can find clear information from the name of the website and North and South island pages that will take you directly there.
+
+![Firstview](images/1view.png)
+
+2. **As a first-time visitor, I want to have access to many locations a few clicks away.**
+After just one click you can find multiple locations with provided pictures, short information text and links to precise location on google maps. You can find all locations marked up with just one click away after just scrolling on the home page also.
+
+![Top of north island page](images/northtop.png)
+![Bottom of home page](images/maplocations.png)
+
+4. **As a recurring or first-time visitor, I want compiled source information about locations.**
+On either the north or south island page you can find compiled information and pictures with links that opens in new browser windows so you will not have to revert back to the website for ease of use.
+
+![South island page](images/south.png)
+
+5. **As a recurring or first-time visitor. I want to be able to contact the author about updates or general feedback.**
+In the navigation that follows as you scroll the pages you can find 'Contact' that will take you to a form you can fill out to give your input about the website.
+
+![Contact](images/contact.png)
+
+## PageSpeed Insights
+
+I used PageSpeed Insights to assess my website performance. First run i got a performance score of 60 due to large image sizes. After resizing the pictures i was able to get the performance score up.
+
+![Preformance](images/performance.png)
+
+## HTML and CSS Validation
+
+I checked my code against validators at several point throughout the project. Managed to not get a lot of warnings and errors. Had a few stray tag ends on the HTML i had to fix. In the CSS i have a warning as i turn in the project, since i don't have a database to submit to i made it so that when you are submitting your information you are reverted to a thank-you.html form.
+
+![HTML Validation](images/htmlvalid.png)
+![CSS Validation](images/cssvalid.png)
+
+## Known bugs and fixes
+
+While testing all links on the website I noticed that when you opened the map on the home page i had used my personal account which resulted in an error when opened from another user then me. I fixed this problem by using 'Google My Maps'
+where i was able to share with anyone where the result will look as following:
+
+![My maps](images/mymaps.png)
+
 ## Deployment
+
+I deployed this website about half way into the project using GitHub with these following steps:
+
+*Page deployment*
+
+1. Log in to Github
+2. In my repositories, select the project you wish to deploy
+3. In the menu at the top of the screen, click on 'Settings'
+4. Click on 'Pages' on the menu on the left side of the screen
+5. In the 'Branch' section and select 'main' and click on 'Save'
+6. Now your page has been given a URL which is displayed at the top of your Github Pages 
+
+![Github Deployment](images/deployment.png)
+
 
 ## Credits
 
+Producing this website i have used several resources for inspiration and researched for help.
+
+The following websites was used for inspiration and research:
+- [Visit Sweden](https://visitsweden.com)
+- [Love Running project (code institute)](https://alexelbert.github.io/love-running/)
+
+Used code from these resources, credited as comments code:
+
+- [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout)
+
+- [CSS-Tricks](https://css-tricks.com/almanac/properties/s/scroll-margin/)
+- [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Web/CSS/:hover)
+
+Other websites i used for the content:
+
+- Most content i wrote myself but used [Google Maps](https://maps.google.com
+) to reference driving distances and [Wikipedia](https://www.wikipedia.org) to check that my memory served me right for specific location information.
+
 ## Acknowledgements
+
+I want to thank my mentor Harry Dhillon for giving support through the project and my girlfriend Sabrina Fonseca Pereira for her support and feedback.
 
  

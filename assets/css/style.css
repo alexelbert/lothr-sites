@@ -44,6 +44,7 @@ h5 {
   color: var(--font);
 }
 
+/* Used from css-tricks.com */
 #edoras,
 #hobbiton,
 #dimholt-road {
@@ -64,6 +65,7 @@ h5 {
   margin-right: 20px;
 }
 
+/* Used code from developer mozilla */
 #navbar a:hover {
   color: var(--hover-colour);
   transition: .5s;
@@ -128,6 +130,7 @@ main {
   height: auto;
 }
 
+/* Grid inspired by code from developer mozilla*/
 .location {
   display: grid;
   align-items: center;
@@ -260,6 +263,8 @@ centerd and moved text down the page. */
 /* Media Queries*/
 
 @media screen and (max-width: 768px) {
+  
+  /* Grid inspired by code from developer mozilla*/
   .location {
     display: grid;
     align-items: center;
