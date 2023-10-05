@@ -361,15 +361,29 @@ centerd and moved text down the page. */
     margin-bottom: 25px;
   }
 
+  /* To separate pictures on home page */
   .picture-section {
     padding: 20px 0;
   }
 
+  /* Make this section collapse from a grid to vertical */
   .location {
     display: inline;
-    margin-top: 200px;
-    padding: 0 5%;
+  }
 
+  /* Added some margin to the main content to make it appear under the nav bar */
+  #weathertop {
+    margin-top: 95px;
+  }
+
+  /* Add some space left/right for the images */
+  .location-img {
+    margin: 0 10px 0 10px;
+  }
+
+  /* Make the text more centred */
+  .location-text {
+    margin: 0 40px 0 40px;
   }
 
   .footer-section {
