@@ -22,6 +22,7 @@ body {
   font-family: 'Source Sans 3', sans-serif;
   font-weight: 300;
   font-size: 12pt;
+  text-align: center;
 }
 
 header a {
@@ -40,6 +41,7 @@ h4,
 h5 {
   font-family: 'Playfair Display', serif;
   color: #ECEAEB;
+  text-align: center;
 }
 
 #navbar {
@@ -102,10 +104,6 @@ header {
 main {
   background-color: var(--background);
   flex: 1 0 auto;
-}
-
-.hidden {
-  display: none;
 }
 
 #index-pictures {
