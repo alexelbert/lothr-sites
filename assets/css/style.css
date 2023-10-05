@@ -44,6 +44,12 @@ h5 {
   text-align: center;
 }
 
+#edoras,
+#hobbiton,
+#dimholt-road {
+  scroll-margin: 122px 0 0 0;
+}
+
 #navbar {
   font-size: 110%;
   display: flex;
@@ -273,16 +279,24 @@ centerd and moved text down the page. */
     height: 350px;
   }
 
+  #index-pictures {
+    margin-bottom: 0;
+  }
+
   /* Make the text centred and forcing text to appear on multiple lines */
   .text-div {
-    width: 33%;
-    margin: 50px 0 0 600px;
+    align-items: center;
+    padding: 5% 30% 10% 30%;
+  }
+
+  .map-div {
+    padding: 0 30% 10% 30%;
   }
 
   /* Making the map less stretched and centred*/
   #map {
-    width: 50%;
-    margin-left: 25%;
+    width: 100%;
+    
   }
 
   /* Added some margin to make content appear more seperated since hero img was made larger*/
