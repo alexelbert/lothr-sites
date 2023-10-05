@@ -276,6 +276,16 @@ centerd and moved text down the page. */
     height: 350px;
   }
 
+  .text-div {
+    width: 33%;
+    margin: 50px 0 0 600px;
+  }
+
+  #map {
+    width: 50%;
+    margin-left: 450px;
+  }
+
   /* Added some margin to make content appear more seperated since hero img was made larger*/
   .pic-div {
     margin-top: 150px;
