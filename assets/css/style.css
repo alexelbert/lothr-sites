@@ -41,7 +41,6 @@ h4,
 h5 {
   font-family: 'Playfair Display', serif;
   color: #ECEAEB;
-  text-align: center;
 }
 
 #edoras,
@@ -299,7 +298,13 @@ centerd and moved text down the page. */
     
   }
 
-  /* Added some margin to make content appear more seperated since hero img was made larger*/
+  /* Targeting the div to make the text not appear so wide and with some more separation from the img */
+  .location-text {
+    width: 50%;
+    margin-left: 10%;
+  }
+
+  /* Added some margin to make content appear more separated since hero img was made larger*/
   .pic-div {
     margin-top: 150px;
   }
